@@ -1,0 +1,536 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 198, 232);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #df51af;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+  
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 40px;
+    position: absolute;
+    right: 1rem;
+
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+nav .menu li a:hover {
+    background-color: #5e0438;
+    box-shadow: 2px 2px 5px rgba(15, 0, 8, 0.3);
+}
+
+footer {
+    background-color:  #df51af;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 25px;
+}
+
+
+.justificado {
+  text-align: justify;
+  margin-left: 15%;
+  width: 70%;
+
+}
+
+.main  {
+  text-align: center;
+  }
+
+.imagenes img {
+   width: 350px;
+   height: 250px;
+
+    }
+
+.imagenes {
+ width: 350px;
+   height: 250px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+@media (max-width: 600px) {
+    .imagenes img {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    nav .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.video {
+    text-align: center;
+    
+    }
+
+    
+
+/* A CONTINUACION VIENE LA PARTE DE LA PRIMERAPAGINA.HTML
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 198, 232);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #df51af;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+  
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 40px;
+    position: absolute;
+    right: 1rem;
+
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+nav .menu li a:hover {
+    background-color: #5e0438;
+    box-shadow: 2px 2px 5px rgba(15, 0, 8, 0.3);
+}
+
+
+.imagenes img {
+   width: 350px;
+   height: 250px;
+
+    }
+
+.imagenes {
+ width: 400px;
+   height: 450px;
+}
+
+
+
+footer {
+    background-color:  #df51af;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* A CONTINUACION VIENE LA PARTE DE LA SEGUNDAPAGINA.HTML
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 198, 232);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #df51af;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+  
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 40px;
+    position: absolute;
+    right: 1rem;
+
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+nav .menu li a:hover {
+    background-color: #5e0438;
+    box-shadow: 2px 2px 5px rgba(15, 0, 8, 0.3);
+}
+
+.imagenes {
+    width: 500px;
+    height: 500px;
+    margin-top: -15px;
+    margin-right: 200%;
+    }
+
+.imagenes img {
+    width: 500%;
+    height: 500px;
+    margin-top: -15px;
+    margin-right: 200%;
+}
+
+.justificado p {
+  text-align: justify;
+  margin-left: 15%;
+  width: 70%;
+ } 
+
+
+footer {
+    background-color:  #df51af;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* A CONTINUACION VIENE LA PARTE DE LA TERCERAPAGINA.HTML
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 198, 232);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #df51af;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+  
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 40px;
+    position: absolute;
+    right: 1rem;
+
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+nav .menu li a:hover {
+    background-color: #5e0438;
+    box-shadow: 2px 2px 5px rgba(15, 0, 8, 0.3);
+}
+
+
+main {
+  padding: 20px;
+}
+
+    h2 {
+      text-align: center;
+    }
+
+    table {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: white;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f15ea8;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #e0f7fa;
+    }
+
+    .imagenes {
+    width: 300px;
+    height: 300px;
+    margin-top: -22%;
+    margin-right: 100%;
+    }
+
+footer {
+    background-color:  #df51af;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* A CONTINUACION VIENE LA PARTE DE LA CUARTAPAGINA.HTML
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 198, 232);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #df51af;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+  
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 40px;
+    position: absolute;
+    right: 1rem;
+
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+nav .menu li a:hover {
+    background-color: #5e0438;
+    box-shadow: 2px 2px 5px rgba(15, 0, 8, 0.3);
+}
+
+.imagenes1 {
+    text-align: center;
+    position: absolute;
+width: 100px;
+height: 100px;
+top: 6rem;
+right: 5rem;
+}
+
+.formulario {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario input[type="submit"] {
+    margin-top: 15px;
+    background-color: #005eb8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #df51ad;
+}
+}
+
+
+footer {
+    background-color:  #df51af;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.justificado p {
+    text-align: justify;
+  margin-left: 15%;
+  width: 70%;
+  
+}
+
+/* A CONTINUACION VIENE LA PARTE DE LA QUINTAPAGINA.HTML
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 198, 232);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #df51af;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+  
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 40px;
+    position: absolute;
+    right: 1rem;
+
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+nav .menu li a:hover {
+    background-color: #5e0438;
+    box-shadow: 2px 2px 5px rgba(15, 0, 8, 0.3);
+}
+
+.imagenes img {
+   width: 400px;
+   height: 450px;
+
+    }
+
+.imagenes {
+ width: 400px;
+   height: 450px;
+}
+
+footer {
+    background-color:  #df51af;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
